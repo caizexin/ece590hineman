@@ -15,5 +15,5 @@ RUN mkdir -p home/workspace/ && \
 RUN  adduser --disabled-password --gecos "" zc114
 USER zc114
 RUN cd /home/workspace/spinningup && \
-    nohup python spinup/examples/bench_ppo_cartpole.py --cpu 2 > test.log &; wait
+    python spinup/examples/bench_ppo_cartpole.py --cpu 2
 
