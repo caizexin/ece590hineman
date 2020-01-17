@@ -59,7 +59,7 @@ correctly when you can run the algorithms provided.
   \end{lstlisting}
 \item Run something from Spinning Up:
   \begin{lstlisting}[language=bash]
-    python spinup/examples/bench_ppo_cartpole.py
+    python -m spinup.run ppo --env CartPole-v0
   \end{lstlisting}
 \end{enumerate}
 \item
@@ -75,7 +75,7 @@ directory in {\tt spring2019ECE590hineman/homework/1/solutions} that contains a
 skeleton dockerfile. Edit this file to install spinning up and its dependencies.
 Show that you've succeed by screening shotting
 \begin{lstlisting}[language=bash]
-  python spinup/examples/bench_ppo_cartpole.py
+  python -m spinup.run ppo --env CartPole-v0
 \end{lstlisting}
 You'll use what you learned from the last exercise to complete this.
 \end{enumerate}
